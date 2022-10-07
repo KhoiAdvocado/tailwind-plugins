@@ -1,3 +1,4 @@
 const typoPlugin = require("./typographyPlugin");
+const shadowPlugin = require("./shadowPlugin");
 
-module.exports = [typoPlugin];
+module.exports = [typoPlugin, shadowPlugin];
